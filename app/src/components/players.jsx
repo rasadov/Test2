@@ -29,8 +29,8 @@ function Players() {
     return (
         <>  
         <div style={{marginBottom: "10%"}}>
-        <div style={{display: "flex", justifyContent: "space-around"}}>
-            <div style={{paddingLeft: "4%", width: "90%"}}>
+        <div className="players-head">
+            <div className="players-head-div1" style={{paddingLeft: "4%", width: "90%"}}>
                 <div>
                     <h2 className="nav-h2">Участники Турнира</h2>
                 </div>
