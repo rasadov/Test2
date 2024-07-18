@@ -9,3 +9,283 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.about {
+  width: 90%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.about-p {
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  font-size: 40px;
+  width: 64%;
+  padding-right: 5%;
+  text-transform: uppercase;
+}
+
+.schedule {
+  width: 90%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.schedule div {
+  width: 90%;
+  padding-left: 5%;
+}
+
+.schedule-p {
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  font-size: 40px;
+
+  text-transform: uppercase;
+}
+
+.table-tr {
+  margin: 0;
+  padding: 0;
+  /* width: 5%; */
+}
+
+.table-th-1 {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  padding-right: 0.5%;
+  color: #313131;
+  width: 2%;
+
+}
+
+.table-th-2 {
+  font-family: "Golos Text", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  padding-left: 1%;
+  width: 5%;
+}
+
+.table-tr th, .table-tr td {
+  border-bottom: 2px solid #D0D0D0;
+}
+
+
+.table-th-1, .table-th-2, td {
+  border-right: 2px solid #D0D0D0;
+}
+
+.table-tr th:last-child, .table-tr td:last-child {
+  border-right: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.steps-head h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-size: 47.5px;
+  width: 70%;
+  text-transform: uppercase;
+
+}
+
+.steps-head span {
+  font-family: "Merriweather", serif;
+  color: #3057A2;
+  font-size: 15px;
+  width: 30% !important;
+  text-transform:none;
+  padding-left: 2%;
+}
+
+.step {
+  background-image: url('src/assets/step_background1.png');
+  width: 95%;
+  margin: auto;
+}
+
+.step-div-main {
+  width: 90%;
+}
+
+.step p {
+  width: 90%;
+  font-family: "Golos Text", serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5%;
+  max-height: 30%;
+  height: 30%;
+  display: flex;  
+  align-items: center; 
+}
+.step-span {
+  background-color: white;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 40px;
+  background: #f0f0f0;
+  font-size: 14px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+
+.container {
+  max-width: 900px;
+  text-align: center;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.participants {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.participant {
+  border-radius: 10px;
+  padding: 20px;
+  width: 25%;
+  text-align: center;
+}
+.participant img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.name {
+  font-size: 1.2rem;
+  margin: 23px 0 15px 0;
+  font-weight: bold;
+}
+.title {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+.button {
+  padding: 10px 20px;
+  border: 1px solid #007BFF;
+  border-radius: 45px;
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.navigation span {
+  margin: 0 10px;
+}
+
+.nav-button {
+  border-radius: 100%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.nav-h2 {
+  font-family: 'Golos Text', sans-serif;
+  font-size: 53px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+footer {
+  margin-top: 0;
+  background-color: #E9DED4;
+}
+
+@media only screen and (min-width: 370px) and (max-width: 768px) {
+
+  .header-image-background {
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: -1000;
+  }
+
+  .header-h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    font-size: 35px;
+    margin: 0;
+  }
+
+  .logo {
+    padding: 25px;
+  }
+
+  .header-h1-div {
+    padding: 25px;
+    padding-left: 5%;
+    padding-bottom: 0;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .header-p {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .header-p-div {
+    padding: 6%;
+    max-width: 80%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .header-button-div {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-button {
+    font-size: 16px;
+    max-width: 60%;
+    width: 60%;
+    max-height: 1% !important;
+    margin: 5% auto;
+    border-radius: 90px;
+    padding: 15px 40px;
+  }
+}

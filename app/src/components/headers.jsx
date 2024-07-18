@@ -1,6 +1,11 @@
 function HeaderBackground() {
 
-    var headerImageBackgroundHeight = document.getElementById("header-image-background").clientHeight;
+    try{
+        var headerImageBackgroundHeight = document.getElementById("header-image-background").clientHeight;
+    } catch(e) {
+        console.log("Error: " + e);
+        var headerImageBackgroundHeight = document.documentElement.clientHeight;
+    }
     headerImageBackgroundHeight = headerImageBackgroundHeight + "px";
 
     return (
