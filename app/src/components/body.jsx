@@ -63,10 +63,11 @@ function About() {
 }
 
 function Steps() {
-    console.log(window.innerWidth);
-
-
     const loadHandler = () => {
+        document.querySelectorAll(".step").forEach((step) => {
+            step.style.backgroundImage = "url('assets/frame.png')";
+        });
+
         if (window.innerWidth <= 768 && window.innerWidth > 370) {
             try {
             document.querySelector(".step-1").innerHTML = "<p><span class='step-span' style='width: 30px'>1</span> Строительство железнодорожной магистрали Москва-Васюки</p>";
@@ -83,8 +84,11 @@ function Steps() {
     }
     window.addEventListener("load", loadHandler);
 
+
+
     return (
         <>
+        <img src="assets/frame.png" className="invisible" alt="" />
         <div style={{width: "90%", margin: "2.5% auto"}}>
             <div className="steps-head">
                 <h1>
@@ -137,9 +141,6 @@ function Steps() {
                 </div>
             </div>
         </div>
-        <script>
-            
-        </script>
         </>
     );
 }
