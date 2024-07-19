@@ -5,10 +5,10 @@ function About() {
         <>
             <div className="about">
                 <p className="about-p">Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span style={{color: "red"}}>«Плодотворная дебютная идея»</span></p>
-                <img className="group-image" src="./src/assets/group_photo.png" alt="" />
+                <img className="group-image" src="assets/group_photo.png" alt="" />
             </div>
             <div className="schedule">
-                <img src="./src/assets/player.png" alt="" />
+                <img src="assets/player.png" alt="" />
                 <div>
                 <p className="schedule-p">и Сеанс <span style={{color: "red"}}>одновременной игры в шахматы на 160 досках</span> гроссмейстера О. Бендера</p>
                 <table>
@@ -122,7 +122,7 @@ function Steps() {
                     <div>
                         <div className="step step-3" style={{height: "88%"}}>
                             <div className="steps-absolute-div" style={{position: "absolute", height: "500px"}}>
-                                <img src="src/assets/plane.png" alt="plane" style={{paddingLeft: "40px", paddingTop: "25%"}} />
+                                <img src="assets/plane.png" alt="plane" style={{paddingLeft: "40px", paddingTop: "25%"}} />
                             </div>
                             <p><span className="step-span" style={{width: "50px"}}>3</span><br/>Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
                             </div>

@@ -114,7 +114,7 @@ table {
 }
 
 .step {
-  background-image: url('src/assets/step_background1.png');
+  background-image: url('assets/step_background1.png');
   width: 95%;
   margin: auto;
 }
@@ -367,7 +367,7 @@ footer {
   }
 
   .step {
-    background-image: url('src/assets/step_background1.png');
+    background-image: url('assets/step_background1.png');
     width: 90%;
     margin: auto;
   }

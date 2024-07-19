@@ -3,11 +3,11 @@ import React from "react";
 function Card({FullName, Rank, Link}) {
     return (
         <>
-        <div class="participant">
-            <img src="src/assets/user.png" alt="Александр Алехин"/>
-            <div class="name">{FullName}</div>
-            <div class="title">{Rank}</div>
-            <a href={Link} class="button">Подробнее</a>
+        <div className="participant">
+            <img src="assets/user.png" alt="Александр Алехин"/>
+            <div className="name">{FullName}</div>
+            <div className="title">{Rank}</div>
+            <a href={Link} className="button">Подробнее</a>
         </div>
         </>
     )

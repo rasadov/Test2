@@ -8,12 +8,13 @@ function HeaderBackground() {
     }
     headerImageBackgroundHeight = headerImageBackgroundHeight + "px";
 
+
     return (
         <>
-        <img src="/src/assets/main.png" id="header-image-background"/>
+        <img src="assets/main.png" id="header-image-background"/>
         <div style={{height: headerImageBackgroundHeight}}>
             <div>
-                <img className="logo" src="src/assets/logo.png" alt="" />
+                <img className="logo" src="assets/logo.png" alt="" />
             </div>
             <div className="header-h1-div">
                 <h1 className="header-h1">ПРЕВРАТИТЕ УЕЗДНЫЙ ГОРОД</h1>
@@ -30,7 +31,7 @@ function HeaderBackground() {
 
         </div>
         <div className="running-line-container">
-            <img src="/src/assets/running line.png" className="running-line" alt="Running Line" />
+            <img src="assets/running line.png" className="running-line" alt="Running Line" />
         </div>
         </>
     );
